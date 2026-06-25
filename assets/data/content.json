@@ -1,0 +1,432 @@
+{
+  "publications": [
+    {
+      "year": "2026",
+      "type": "Journal article",
+      "venue": "ACM Transactions on Accessible Computing",
+      "category": "accessibility-xr",
+      "highlight": true,
+      "title": "Omnidirectional Audio Descriptions in Virtual Reality: A Conceptual Framework for Musical Performances Accessible to Blind and Low-Vision Users",
+      "authors": "Khang Dang, Grace Burke, Hamdi Korreshi, Sooyeon Lee",
+      "summary": "A conceptual framework for making VR musical performances more accessible through spatial, view-dependent, and explorative audio descriptions grounded in blind and low-vision perspectives.",
+      "doi": "10.1145/3813802",
+      "url": "https://dl.acm.org/doi/10.1145/3813802"
+    },
+    {
+      "year": "2025",
+      "type": "Conference paper",
+      "venue": "ASSETS 2025",
+      "category": "methods",
+      "highlight": false,
+      "title": "Participant Recruitment in Accessibility Research",
+      "authors": "Lloyd May, Saad Hassan, Khang Dang, Sooyeon Lee, Oliver Alonzo",
+      "summary": "A workshop contribution and community-building effort focused on ethical, rigorous, and sustainable participant recruitment in disability and accessibility research.",
+      "doi": "10.1145/3663547.3748639",
+      "url": "https://dl.acm.org/doi/10.1145/3663547.3748639"
+    },
+    {
+      "year": "2025",
+      "type": "Conference demo",
+      "venue": "IEEE ISMAR-Adjunct 2025",
+      "category": "accessibility-xr",
+      "highlight": true,
+      "title": "Personalized Conversational Audio Descriptions in 360° Virtual Reality for Blind and Low-Vision Users",
+      "authors": "Khang Dang, Sooyeon Lee",
+      "summary": "A Meta Quest demo combining head-pose-based view snapshots, speech recognition, GPT-4o responses, and streamed text-to-speech for on-demand conversational audio description.",
+      "doi": "10.1109/ISMAR-Adjunct68609.2025.00268",
+      "url": "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00268"
+    },
+    {
+      "year": "2025",
+      "type": "Journal article",
+      "venue": "Translational Vision Science & Technology",
+      "category": "healthcare-ai",
+      "highlight": false,
+      "title": "Advancing Question-Answering in Ophthalmology With Retrieval-Augmented Generation: Benchmarking Open-Source and Proprietary Large Language Models",
+      "authors": "Quang Nguyen, Duy-Anh Nguyen, Khang Dang, Siyin Liu, Khai Nguyen, Sophia Y. Wang, Mariya Moosajee, Nikolas Pontikos",
+      "summary": "A medical AI study evaluating retrieval-augmented generation for ophthalmology question answering across open-source and proprietary large language models.",
+      "doi": "10.1167/tvst.14.9.18",
+      "url": "https://doi.org/10.1167/tvst.14.9.18"
+    },
+    {
+      "year": "2025",
+      "type": "Journal article",
+      "venue": "Frontiers in Computer Science",
+      "category": "accessible-video-sound",
+      "highlight": false,
+      "title": "“Choices? That’s the dream”: Challenges and Opportunities in Non-Speech Information Closed-Captioning",
+      "authors": "Lloyd May, Michael Clemens, Khang Dang, Keita Ohshiro, Sripathi Sridhar, Pauline Wee, Magdalena Fuentes, Sooyeon Lee, Mark Cartwright",
+      "summary": "A mixed-methods and literature-review study of non-speech information captioning, user agency, professional practice, and future accessible media tools.",
+      "doi": "10.3389/fcomp.2025.1575176",
+      "url": "https://doi.org/10.3389/fcomp.2025.1575176"
+    },
+    {
+      "year": "2024",
+      "type": "Conference demo",
+      "venue": "ASSETS 2024",
+      "category": "accessibility-xr",
+      "highlight": true,
+      "title": "Musical Performances in Virtual Reality with Spatial and View-Dependent Audio Descriptions for Blind and Low-Vision Users",
+      "authors": "Khang Dang, Sooyeon Lee",
+      "summary": "A VR accessibility demonstration using spatial audio description and view-dependent description to support orientation and attention in immersive musical performances.",
+      "doi": "10.1145/3663548.3688492",
+      "url": "https://dl.acm.org/doi/10.1145/3663548.3688492"
+    },
+    {
+      "year": "2024",
+      "type": "Conference paper",
+      "venue": "ASSETS 2024",
+      "category": "accessibility-xr",
+      "highlight": true,
+      "title": "Towards Accessible Musical Performances in Virtual Reality: Designing a Conceptual Framework for Omnidirectional Audio Descriptions",
+      "authors": "Khang Dang, Grace Burke, Hamdi Korreshi, Sooyeon Lee",
+      "summary": "An interview-based study proposing spatial, view-dependent, and explorative audio description strategies for VR musical performances.",
+      "doi": "10.1145/3663548.3675618",
+      "url": "https://dl.acm.org/doi/10.1145/3663548.3675618"
+    },
+    {
+      "year": "2024",
+      "type": "Conference paper",
+      "venue": "CHI 2024",
+      "category": "accessible-video-sound",
+      "highlight": false,
+      "title": "Unspoken Sound: Identifying Trends in Non-Speech Audio Captioning on YouTube",
+      "authors": "Lloyd May, Keita Ohshiro, Khang Dang, Sripathi Sridhar, Jhanvi Pai, Magdalena Fuentes, Sooyeon Lee, Mark Cartwright",
+      "summary": "An exploratory analysis of non-speech information captioning on YouTube and the accessibility gaps created when automated captioning omits sound beyond speech.",
+      "doi": "10.1145/3613904.3642162",
+      "url": "https://dl.acm.org/doi/10.1145/3613904.3642162"
+    },
+    {
+      "year": "2023",
+      "type": "Conference paper",
+      "venue": "SUI 2023",
+      "category": "accessibility-xr",
+      "highlight": true,
+      "title": "Opportunities for Accessible Virtual Reality Design for Immersive Musical Performances for Blind and Low-Vision People",
+      "authors": "Khang Dang, Hamdi Korreshi, Yasir Iqbal, Sooyeon Lee",
+      "summary": "A mixed-methods study with blind and low-vision participants examining opportunities for accessible VR musical performances.",
+      "doi": "10.1145/3607822.3614540",
+      "url": "https://dl.acm.org/doi/10.1145/3607822.3614540"
+    },
+    {
+      "year": "2022",
+      "type": "Journal article",
+      "venue": "Sensors",
+      "category": "construction-safety",
+      "highlight": false,
+      "title": "Augmented Hearing of Auditory Safety Cues for Construction Workers: A Systematic Literature Review",
+      "authors": "Khang Dang, Kehinde Elelu, Tuyen Le, Chau Le",
+      "summary": "A review of acoustic signal processing and auditory situational awareness for construction safety, motivating AI-supported hearing protection and hazard detection.",
+      "doi": "10.3390/s22239135",
+      "url": "https://doi.org/10.3390/s22239135"
+    },
+    {
+      "year": "2020",
+      "type": "Conference paper",
+      "venue": "ISARC 2020",
+      "category": "construction-safety",
+      "highlight": false,
+      "title": "A Novel Audio-Based Machine Learning Model for Automated Detection of Collision Hazards at Construction Sites",
+      "authors": "Khang Dang, Tuyen Le",
+      "summary": "A convolutional-neural-network approach for detecting collision hazards from acoustic signals at construction sites.",
+      "doi": "10.22260/ISARC2020/0114",
+      "url": "https://doi.org/10.22260/ISARC2020/0114"
+    }
+  ],
+  "research": [
+    {
+      "slug": "accessibility-xr",
+      "title": "Accessibility XR & Audio Description",
+      "tag": "PhD research",
+      "icon": "✦",
+      "url": "research/accessibility-xr.html",
+      "summary": "Immersive, interactive, intelligent, and individualized audio description for 360° VR musical performances, designed with blind and low-vision users and audio description professionals.",
+      "methods": [
+        "mixed-methods user research",
+        "360° VR prototyping",
+        "spatial audio",
+        "conversational AI",
+        "accessible interaction design"
+      ],
+      "outputs": [
+        "SUI 2023",
+        "ASSETS 2024",
+        "ISMAR-Adjunct 2025",
+        "TACCESS 2026",
+        "XR Access 2025 I4AD talk"
+      ]
+    },
+    {
+      "slug": "healthcare-ai",
+      "title": "Healthcare AI & Digital Twins",
+      "tag": "Postdoc research",
+      "icon": "◆",
+      "url": "research/healthcare-ai.html",
+      "summary": "Clinical AI, ICU temporal modeling, and patient-specific digital twins for critical-care decision support and interpretable prediction workflows.",
+      "methods": [
+        "MIMIC-IV cohort design",
+        "temporal deep learning",
+        "state-action modeling",
+        "clinical outcome prediction",
+        "human-centered evaluation"
+      ],
+      "outputs": [
+        "AID-TWIN Rutgers Health AI Symposium",
+        "ophthalmology RAG benchmarking",
+        "ICU digital twin manuscript development"
+      ]
+    },
+    {
+      "slug": "accessible-video-sound",
+      "title": "Accessible Video & Sound",
+      "tag": "Media accessibility",
+      "icon": "♪",
+      "url": "research/accessible-video-sound.html",
+      "summary": "Captioning and non-speech information research for online video, with emphasis on D/deaf and hard-of-hearing access to music, sound effects, and narrative audio cues.",
+      "methods": [
+        "large-scale media analysis",
+        "mixed-methods accessibility research",
+        "captioning practice synthesis",
+        "sound and music accessibility"
+      ],
+      "outputs": [
+        "CHI 2024",
+        "Frontiers in Computer Science 2025"
+      ]
+    },
+    {
+      "slug": "methods",
+      "title": "Human-Centered AI & Methods",
+      "tag": "Research practice",
+      "icon": "☑",
+      "url": "research/methods.html",
+      "summary": "Mixed-methods HCI, accessibility-centered recruitment, participatory design, and research operations that make AI/XR studies more rigorous and inclusive.",
+      "methods": [
+        "interviews",
+        "surveys",
+        "co-design",
+        "qualitative coding",
+        "accessibility review",
+        "participant recruitment"
+      ],
+      "outputs": [
+        "ASSETS 2025 workshop",
+        "CUI associate chair service",
+        "peer review and community service"
+      ]
+    },
+    {
+      "slug": "construction-safety",
+      "title": "Audio AI for Construction Safety",
+      "tag": "Earlier work",
+      "icon": "▣",
+      "url": "research/construction-safety.html",
+      "summary": "Audio-based machine learning for detecting collision hazards and preserving auditory situational awareness in construction safety contexts.",
+      "methods": [
+        "audio signal processing",
+        "CNNs",
+        "systematic literature review",
+        "hazard detection",
+        "auditory situational awareness"
+      ],
+      "outputs": [
+        "ISARC 2020",
+        "Sensors 2022"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "date": "May 7, 2026",
+      "title": "TACCESS article published online",
+      "summary": "Omnidirectional Audio Descriptions in Virtual Reality appeared online in ACM Transactions on Accessible Computing.",
+      "url": "https://dl.acm.org/doi/10.1145/3813802"
+    },
+    {
+      "date": "Feb 25, 2026",
+      "title": "AID-TWIN featured at Rutgers Health AI Symposium",
+      "summary": "Presented work with Jag Sunderram on real-time, AI/ML-driven, patient-specific digital twins for ICU care.",
+      "url": "https://ifh.rutgers.edu/rutgers-center-for-biomedical-informatics-health-ai-2026-symposium/"
+    },
+    {
+      "date": "Oct 20–26, 2025",
+      "title": "ASSETS 2025 accessibility recruitment workshop",
+      "summary": "Co-organized a virtual workshop on participant recruitment practices in accessibility research.",
+      "url": "https://assets-recruitment-2025.github.io/"
+    },
+    {
+      "date": "Oct 2025",
+      "title": "ISMAR-Adjunct demo on conversational audio description",
+      "summary": "Published a demo on personalized conversational audio descriptions in 360° VR.",
+      "url": "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00268"
+    },
+    {
+      "date": "Jul 25, 2025",
+      "title": "AFB blog highlighted I4AD",
+      "summary": "The American Foundation for the Blind discussed I4AD as a user-centered approach to XR audio description.",
+      "url": "https://afb.org/blog/entry/i4ad-revolutionizing-xr-audio-descriptions"
+    },
+    {
+      "date": "Jun 26–27, 2025",
+      "title": "XR Access Symposium I4AD talk",
+      "summary": "Presented I4AD at XR Access 2025 in New York City.",
+      "url": "https://xraccess.org/symposium/"
+    },
+    {
+      "date": "Jun 19, 2025",
+      "title": "Frontiers article on non-speech captions",
+      "summary": "Co-authored a study on challenges and opportunities in non-speech information closed-captioning.",
+      "url": "https://doi.org/10.3389/fcomp.2025.1575176"
+    },
+    {
+      "date": "Oct 2024",
+      "title": "ASSETS publications on VR musical performance access",
+      "summary": "Published ASSETS technical and demo work on omnidirectional, spatial, and view-dependent audio descriptions.",
+      "url": "https://dl.acm.org/doi/10.1145/3663548.3675618"
+    }
+  ],
+  "blog": [
+    {
+      "slug": "i4ad-framework",
+      "title": "I4AD: Why Audio Description in VR Should Be Immersive, Interactive, Intelligent, and Individualized",
+      "category": "Research Notes",
+      "date": "2026",
+      "summary": "A plain-language essay explaining the design philosophy behind I4AD and why VR performance access requires more than static narration.",
+      "body": [
+        "Traditional audio description often works by inserting spoken descriptions into natural pauses. That structure can be powerful in film or theater, but immersive VR changes the problem. The user can look around, performers may move across a 360° scene, and important information may not be in front of the viewer at the same time for everyone.",
+        "I4AD is my shorthand for a broader design direction: immersive, interactive, intelligent, and individualized audio description. Immersive means description should support spatial awareness, not flatten the scene. Interactive means users should be able to ask for more detail or explore based on their attention. Intelligent means systems can help generate or adapt descriptions when appropriate. Individualized means access should respect each user’s preference, context, and comfort level.",
+        "The point is not to replace human describers or impose AI on access. The point is to expand the design space so blind and low-vision audiences can experience VR musical performances with more agency, orientation, and control."
+      ]
+    },
+    {
+      "slug": "broadway-as-interface",
+      "title": "Broadway as Interface: What Musical Theater Taught Me About Accessible XR",
+      "category": "Broadway & Design",
+      "date": "2026",
+      "summary": "A reflective piece connecting musical theater, attention, spectacle, timing, and accessibility design for immersive media.",
+      "body": [
+        "Musical theater is an interface. It guides attention through lighting, staging, music, movement, choreography, costume, and timing. A good production knows when to make something obvious and when to let the audience discover it slowly.",
+        "This matters for accessible XR because immersive environments create the same problem at a new scale. A user cannot perceive every visual detail at once. Designers need to decide what should be described, when it should be described, where it should sound like it comes from, and how much control the user should have.",
+        "Broadway keeps reminding me that accessibility is not only about information transfer. It is also about rhythm, emotion, anticipation, and the feeling of being included in the moment."
+      ]
+    },
+    {
+      "slug": "non-speech-captioning",
+      "title": "The Sounds Between Words: Why Non-Speech Captions Matter",
+      "category": "AI Explainers",
+      "date": "2026",
+      "summary": "A concise explainer on music, sound effects, speaker tone, and other non-speech information in accessible video.",
+      "body": [
+        "Captions are often treated as speech transcripts, but video meaning is carried by much more than dialogue. Music can foreshadow danger. Laughter can change tone. A door slam, a long silence, or a shift in background sound can all be part of the story.",
+        "Non-speech information captioning asks how captions can represent these sounds in ways that are accurate, useful, and enjoyable for D/deaf and hard-of-hearing audiences. The challenge is not only detecting sound automatically. It is deciding what matters, how to phrase it, and how to avoid overwhelming the viewer.",
+        "This is where accessibility research becomes design research. Good captions are not merely generated; they are authored with audience needs, context, and agency in mind."
+      ]
+    },
+    {
+      "slug": "clinical-digital-twins",
+      "title": "From Prediction to Patient-Specific Reasoning: How I Think About ICU Digital Twins",
+      "category": "Research Notes",
+      "date": "2026",
+      "summary": "A professional note on ICU digital twins, temporal modeling, and why clinical AI needs interpretability and workflow awareness.",
+      "body": [
+        "In critical care, prediction alone is rarely enough. Clinicians need to understand how a patient state is changing, what signals matter, and how possible interventions might affect future trajectories. That is why digital twins are interesting: at their best, they connect monitoring, modeling, forecasting, and decision support around a patient-specific representation.",
+        "My postdoctoral work explores this space through ICU temporal data, machine learning, and state-action modeling. The technical questions are important, but so are the human questions: what decisions are actually being supported, what uncertainty should be shown, and how should a model fit into clinical workflow?",
+        "A useful clinical AI system should be accurate, interpretable enough for its purpose, and designed around the people who must trust, question, and act on it."
+      ]
+    },
+    {
+      "slug": "participant-recruitment-accessibility",
+      "title": "Recruitment Is Part of the Method, Not Just Logistics",
+      "category": "Academic Life",
+      "date": "2026",
+      "summary": "A reflection on accessibility research recruitment, inclusion, sustainability, and why participant engagement shapes research quality.",
+      "body": [
+        "In accessibility research, recruitment is not a neutral administrative step. Who is invited, how they are compensated, how access needs are handled, and how eligibility is framed all influence what knowledge the study can produce.",
+        "The phrase “nothing about us without us” is easy to cite and harder to practice well. Responsible recruitment requires clarity, respect, and sustainability. Researchers must avoid both exclusion and over-burdening the same communities repeatedly.",
+        "I see recruitment as part of research design itself. It is one of the places where rigor, ethics, and care meet."
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "title": "A nice walk in Cambridge",
+      "platform": "Instagram",
+      "kind": "Vertical social post",
+      "date": "June 21, 2026",
+      "summary": "A quiet travel-and-city moment from Cambridge, kept as a personal-life gallery item rather than part of the professional homepage.",
+      "url": "https://www.instagram.com/p/DZ3n7GvsDK2/"
+    },
+    {
+      "title": "Came here to learn a spell or two, just in case",
+      "platform": "Instagram",
+      "kind": "Vertical social post",
+      "date": "2026",
+      "summary": "A playful personal post with a low-key theater/fantasy mood, useful for the personal gallery page.",
+      "url": "https://www.instagram.com/p/DKk_tNgs25C/"
+    },
+    {
+      "title": "Instagram profile gallery",
+      "platform": "Instagram",
+      "kind": "Profile collection",
+      "date": "Ongoing",
+      "summary": "Public Instagram collection under @khang4dang; the site keeps the profile link behind a button instead of displaying the raw URL.",
+      "url": "https://www.instagram.com/khang4dang/"
+    },
+    {
+      "title": "XR Access 2025 I4AD audio record",
+      "platform": "SoundCloud",
+      "kind": "Talk audio",
+      "date": "2025",
+      "summary": "Audio record of the I4AD presentation, included under talks/media rather than the casual gallery.",
+      "url": "https://m.soundcloud.com/khang4dang/xr-access-2025-i4ad-by-khang-dang"
+    }
+  ],
+  "talks": [
+    {
+      "year": "2026",
+      "title": "AID-TWIN: Advancing ICU Care with Real-Time, AI/ML-Driven, Patient-Specific Digital Twins",
+      "venue": "Rutgers Center for Biomedical Informatics & Health AI 2026 Symposium",
+      "role": "Presenter with Jag Sunderram",
+      "summary": "Health AI highlight presentation focused on ICU care, AI/ML models, and patient-specific digital twins.",
+      "url": "https://ifh.rutgers.edu/rutgers-center-for-biomedical-informatics-health-ai-2026-symposium/"
+    },
+    {
+      "year": "2025",
+      "title": "I4AD: Diverse Perspectives from BLV Users on Designing Immersive, Interactive, Intelligent, and Individualized Audio Description Framework for VR Musical Performances",
+      "venue": "XR Access 2025 Symposium, New York City",
+      "role": "Speaker",
+      "summary": "Introduced I4AD and its connection to spatial audio, adaptive interaction, conversational AI, and personalized audio description for VR musical performances.",
+      "url": "https://xraccess.org/symposium/"
+    },
+    {
+      "year": "2025",
+      "title": "XR Access 2025: I4AD",
+      "venue": "SoundCloud archive",
+      "role": "Audio record",
+      "summary": "Public audio record associated with the XR Access I4AD presentation.",
+      "url": "https://m.soundcloud.com/khang4dang/xr-access-2025-i4ad-by-khang-dang"
+    },
+    {
+      "year": "2020",
+      "title": "A Novel Audio-Based Machine Learning Model for Automated Detection of Collision Hazards at Construction Sites",
+      "venue": "Seminar Series",
+      "role": "Presenter",
+      "summary": "Technical presentation on CNN-based audio hazard detection for construction safety.",
+      "url": "https://sites.google.com/site/ihaiphan/seminar-series"
+    }
+  ],
+  "external": {
+    "website": "https://www.khang4dang.net/about",
+    "github": "https://github.com/khang4dang",
+    "linkedin": "https://www.linkedin.com/in/khang4dang/",
+    "orcid": "https://orcid.org/0000-0003-3481-497X",
+    "scholar": "https://scholar.google.com/citations?user=LG5AhT4AAAAJ&hl=en",
+    "researchgate": "https://www.researchgate.net/profile/Khang-Dang-7",
+    "instagram": "https://www.instagram.com/khang4dang/",
+    "soundcloud_i4ad": "https://m.soundcloud.com/khang4dang/xr-access-2025-i4ad-by-khang-dang",
+    "xr_access_2025": "https://xraccess.org/symposium/",
+    "afb_i4ad": "https://afb.org/blog/entry/i4ad-revolutionizing-xr-audio-descriptions",
+    "assets_workshop": "https://assets-recruitment-2025.github.io/",
+    "rutgers_bmihai": "https://ifh.rutgers.edu/rutgers-center-for-biomedical-informatics-health-ai-2026-symposium/"
+  }
+}
