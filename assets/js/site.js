@@ -52,10 +52,12 @@
       title.textContent = card.dataset.title || 'Media item';
       desc.textContent = card.dataset.summary || '';
       const src = card.dataset.video || '';
+      const isPlaceholder = card.classList.contains('is-placeholder');
       video.pause();
       video.removeAttribute('src');
       video.innerHTML = '';
-      if (src) {
+      video.hidden = isPlaceholder;
+      if (src && !isPlaceholder) {
         const source = document.createElement('source');
         source.src = src;
         source.type = 'video/mp4';

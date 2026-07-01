@@ -21,6 +21,7 @@ This package uses `khang_dang_news_dropdown_prototype.html` as the visual source
 - `blog.html` — blog index with filters
 - `blog/*.html` — full article pages
 - `gallery.html` — vertical video/social gallery
+- `full-gallery.html` — expanded gallery with alternating horizontal rows
 - `news.html` — full news timeline
 - `cv.html` — editable CV page
 - `contact.html` — contact and profiles
@@ -47,6 +48,15 @@ This package uses `khang_dang_news_dropdown_prototype.html` as the visual source
 1. Create a new file inside `research/`.
 2. Add a card in `research.html`.
 3. Add a dropdown item in the navigation in each page template, or regenerate from the build script.
+
+## How to add a gallery video
+
+1. Put the MP4 file in `assets/videos/`.
+2. Open `assets/js/gallery.js` and add an item under the matching collection.
+3. Use the file path in `src`, for example `assets/videos/my-trip.mp4`.
+4. For a future-video card, add `placeholder: true`; remove it or set it to `false` when the file is ready.
+
+The same collection data automatically appears in the vertical preview and the full horizontal gallery.
 
 ## Design rule
 

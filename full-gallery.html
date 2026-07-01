@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery | Khang Dang</title>
-  <meta name="description" content="A continuously scrolling gallery of travel, New Jersey, Broadway, Pokémon, research travel, and singing videos." />
+  <title>Full Gallery | Khang Dang</title>
+  <meta name="description" content="The full art gallery of travel, New Jersey, Broadway, Pokémon, research travel, and singing videos." />
   <link rel="stylesheet" href="assets/css/styles.css?v=20260701" />
   <script src="assets/js/gallery.js?v=20260701" defer></script>
   <script src="assets/js/site.js?v=20260701" defer></script>
 </head>
-<body class="gallery-page">
+<body class="gallery-page full-gallery-page">
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="shell">
     <header class="site-header">
@@ -21,14 +21,14 @@
       <a class="cv-button" href="cv.html">▣ CV</a>
     </header>
     <main id="main">
-      <section class="page-title"><h1>Gallery</h1><p>A curated collection of travel, New Jersey, Broadway, Pokémon, research presentations, and singing moments.</p></section>
-      <section class="gallery-shell gallery-art gallery-preview" aria-labelledby="gallery-stream-title">
-        <div class="gallery-section-heading">
-          <div><span class="gallery-kicker">Now scrolling</span><h2 id="gallery-stream-title">Choose a collection</h2></div>
-          <a class="button gallery-more-button" href="full-gallery.html">See full gallery <span aria-hidden="true">▸</span></a>
-        </div>
-        <p class="gallery-caption">Each column loops continuously. Hover over it or move keyboard focus inside to pause and take a closer look.</p>
-        <div data-gallery-layout="columns"></div>
+      <section class="page-title gallery-page-title full-gallery-title">
+        <div><span class="gallery-kicker">★ Full collection unlocked</span><h1>The Memory Arcade</h1><p>Browse every collection as an animated row. The direction alternates like a stage chorus crossing left, then right.</p><a class="small-link gallery-back-link" href="gallery.html">← Back to gallery preview</a></div>
+        <div class="gallery-title-mark" aria-hidden="true"><span>♪</span><span>◉</span><span>✦</span></div>
+      </section>
+      <section class="full-gallery-stage gallery-art" aria-label="Full video gallery by topic">
+        <div class="gallery-stage-banner" aria-hidden="true"><span>SELECT A MEMORY</span><span>♫ ◆ ♪</span><span>PRESS PLAY</span></div>
+        <p class="gallery-caption">Rows loop continuously in alternating directions. Hover or focus within a row to pause it.</p>
+        <div data-gallery-layout="rows"></div>
       </section>
       <div class="modal" id="media-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="media-modal-title"><div class="modal-box"><div class="modal-top"><h3 id="media-modal-title">Media item</h3><button class="close" id="media-modal-close" type="button">Close</button></div><p id="media-modal-desc"></p><video class="video-modal-player" id="media-modal-video" controls preload="metadata"></video></div></div>
     </main>
