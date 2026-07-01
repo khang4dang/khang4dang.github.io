@@ -856,7 +856,7 @@ footer {
 /* True fixed header correction: stays visible for the whole page, not just within the wrapper. */
 :root { --fixed-header-height: 104px; }
 html { scroll-padding-top: calc(var(--fixed-header-height) + 18px); }
-.shell { padding-top: calc(var(--fixed-header-height) + 1rem) !important; }
+.shell { padding-top: calc(var(--fixed-header-height) - .75rem) !important; }
 .site-header {
   position: fixed !important;
   top: .75rem !important;
