@@ -82,14 +82,7 @@
       slug: 'research-journey',
       title: 'Research Journey',
       symbol: '▣',
-      items: [
-        { title: 'Graduation', meta: 'Academic milestone', src: 'assets/videos/research-journey/graduation.mp4' },
-        { title: 'Research Conference', meta: 'Academic milestone', src: 'assets/videos/research-journey/ieee-ismar-2005.mp4' },
-        { title: 'XR Access 2025 Part 1', meta: 'Academic milestone', src: 'assets/videos/research-journey/xr-access-2025-part-1.mp4' },
-        { title: 'XR Access 2025 Part 2', meta: 'Academic milestone', src: 'assets/videos/research-journey/xr-access-2025-part-2.mp4' },
-        { title: 'MIT Campus', meta: 'Campus visit', src: 'assets/videos/research-journey/mit-campus.mp4' },
-        { title: 'Harvard Campus', meta: 'Campus visit', src: 'assets/videos/research-journey/harvard-campus.mp4' }
-      ]
+      items: [...collections[4].items, ...collections[5].items]
     }
   ];
 
@@ -139,6 +132,11 @@
   function makeNonInteractive(element) {
     element.setAttribute('aria-hidden', 'true');
     element.querySelectorAll('[tabindex]').forEach(child => child.setAttribute('tabindex', '-1'));
+    // A cloned video must be registered with IntersectionObserver as a new node.
+    // Do not inherit the marker from the original video across loop rebuilds.
+    element.querySelectorAll('.video-preview').forEach(video => {
+      video.removeAttribute('data-playback-observed');
+    });
   }
 
   function prepareLoop(track) {
@@ -148,8 +146,14 @@
     const originals = Array.from(set.children).filter(item => !item.hasAttribute('data-fill-clone'));
     if (!originals.length) return;
 
-    track.querySelectorAll('.gallery-loop-set + .gallery-loop-set').forEach(clone => clone.remove());
-    set.querySelectorAll('[data-fill-clone]').forEach(clone => clone.remove());
+    track.querySelectorAll('.gallery-loop-set + .gallery-loop-set').forEach(clone => {
+      clone.querySelectorAll('.video-preview').forEach(video => previewObserver?.unobserve(video));
+      clone.remove();
+    });
+    set.querySelectorAll('[data-fill-clone]').forEach(clone => {
+      clone.querySelectorAll('.video-preview').forEach(video => previewObserver?.unobserve(video));
+      clone.remove();
+    });
 
     const size = () => axis === 'vertical' ? set.scrollHeight : set.scrollWidth;
     const target = (axis === 'vertical' ? viewport.clientHeight : viewport.clientWidth) + 24;
