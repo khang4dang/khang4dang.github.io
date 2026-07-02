@@ -44,14 +44,17 @@
       ]
     },
     {
-      slug: 'research-travel',
-      title: 'Research Travel',
+      slug: 'research-journey',
+      title: 'Research Journey',
       symbol: '▣',
-      note: 'Conferences, presentations, campuses, and milestones.',
+      note: 'Conferences, presentations, campuses, and academic milestones.',
       items: [
-        { title: 'Graduation', meta: 'Academic milestone', src: 'assets/videos/graduation.mp4' },
-        { title: 'MIT Campus', meta: 'Research travel', src: 'assets/videos/mit-campus.mp4' },
-        { title: 'Harvard Campus', meta: 'Research travel', src: 'assets/videos/harvard-campus.mp4' }
+        { title: 'Graduation', meta: 'Academic milestone', src: 'assets/videos/research-journey/graduation.mp4' },
+        { title: 'Research Conference', meta: 'Academic milestone', src: 'assets/videos/research-journey/ieee-ismar-2005.mp4' },
+        { title: 'XR Access 2025 Part 1', meta: 'Academic milestone', src: 'assets/videos/research-journey/xr-access-2025-part-1.mp4' },
+        { title: 'XR Access 2025 Part 2', meta: 'Academic milestone', src: 'assets/videos/research-journey/xr-access-2025-part-2.mp4' },
+        { title: 'MIT Campus', meta: 'Campus visit', src: 'assets/videos/research-journey/mit-campus.mp4' },
+        { title: 'Harvard Campus', meta: 'Campus visit', src: 'assets/videos/research-journey/harvard-campus.mp4' }
       ]
     },
     {
@@ -76,10 +79,17 @@
       items: [...collections[2].items, ...collections[3].items]
     },
     {
-      slug: 'research-singing',
-      title: 'Research Travel + Singing',
-      symbol: '♫',
-      items: [...collections[4].items, ...collections[5].items]
+      slug: 'research-journey',
+      title: 'Research Journey',
+      symbol: '▣',
+      items: [
+        { title: 'Graduation', meta: 'Academic milestone', src: 'assets/videos/research-journey/graduation.mp4' },
+        { title: 'Research Conference', meta: 'Academic milestone', src: 'assets/videos/research-journey/ieee-ismar-2005.mp4' },
+        { title: 'XR Access 2025 Part 1', meta: 'Academic milestone', src: 'assets/videos/research-journey/xr-access-2025-part-1.mp4' },
+        { title: 'XR Access 2025 Part 2', meta: 'Academic milestone', src: 'assets/videos/research-journey/xr-access-2025-part-2.mp4' },
+        { title: 'MIT Campus', meta: 'Campus visit', src: 'assets/videos/research-journey/mit-campus.mp4' },
+        { title: 'Harvard Campus', meta: 'Campus visit', src: 'assets/videos/research-journey/harvard-campus.mp4' }
+      ]
     }
   ];
 
